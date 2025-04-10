@@ -4,5 +4,5 @@ pandas
 yfinance
 plotly
 scikit-learn
-tensorflow
-kerastuner
+tensorflow>=2.12.0
+keras-tuner

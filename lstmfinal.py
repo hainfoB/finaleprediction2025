@@ -11,8 +11,8 @@ from keras.models import Sequential
 from keras.layers import LSTM, Dense, Dropout, Bidirectional
 from keras.callbacks import EarlyStopping
 from keras.optimizers import Adam
-from kerastuner.tuners import RandomSearch
-from kerastuner.engine.hyperparameters import HyperParameters
+from keras_tuner.tuners import RandomSearch
+from keras_tuner.tuners.hyperparameters import HyperParameters
 import keras.backend as K
 import datetime
 
